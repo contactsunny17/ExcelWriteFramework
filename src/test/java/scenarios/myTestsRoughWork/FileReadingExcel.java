@@ -28,6 +28,8 @@ public class FileReadingExcel {
 		//Creating workbook instanse that refers to .xls file
 		HSSFWorkbook wb = new HSSFWorkbook(filePath);
 		System.out.println("About to read/write into excel sheet");
+		System.out.println("About to read/write into excel sheet");
+
 	}
  
 	private static void write() {

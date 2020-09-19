@@ -44,7 +44,6 @@ public class RestAPI_Test_1 {
 		headers.put("Content-Type", "application/json");
 		Response post = RestAssured.given().when().headers(headers).body(body).post("http://192.168.1.100:3000/api");
 		System.out.println(post.getStatusCode());
-		System.out.println(post.asString());
 		System.out.println(post);
 		String postBody = post.asString();
 		System.out.println(postBody);
