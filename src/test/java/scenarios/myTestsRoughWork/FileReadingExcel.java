@@ -27,9 +27,9 @@ public class FileReadingExcel {
 		FileInputStream filePath = new FileInputStream(new File("D:/work/selenium/workspace/framework_artifact_1/src/test/resources/sunny.xlsx"));
 		//Creating workbook instanse that refers to .xls file
 		HSSFWorkbook wb = new HSSFWorkbook(filePath);
-		
-		
-		
+		System.out.println("About to read/write into excel sheet");
+		System.out.println("About to read/write into excel sheet");
+
 	}
  
 	private static void write() {
