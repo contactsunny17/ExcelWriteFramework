@@ -11,4 +11,10 @@ public class ASSAS {
 	public void asd() {
 		System.out.println(232);
 	}
+	
+	@Test
+	public void asdasd() {
+		System.out.println(232232);
+	}
+
 }
